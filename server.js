@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const fileSystem = require('fs');
 const app = express();
 console.log(data);
 app.use(express.static(__dirname + '/dist/theNews'));
